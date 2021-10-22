@@ -1,0 +1,42 @@
+@include media-breakpoint-down(lg) {
+    .navbar {
+        position: relative;
+        z-index: 999;
+        background: rgba( 255, 255, 255, 0.6 ) !important;
+        box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.35);
+        backdrop-filter: blur( 6.5px );
+        -webkit-backdrop-filter: blur( 6.5px );
+        border: 1px solid rgba( 255, 255, 255, 0.18 );
+        transition: all 0.3s linear;
+    }
+    .navbar-brand{
+        .me-2{
+            width: 30px !important;
+        }
+    }
+}
+
+.starting-list{
+    &:nth-last-child(1){
+        border-right: none !important;
+    }
+}
+.ending-list{
+    &:nth-child(1){
+        border-left: none !important;
+    }
+}
+.nav-link-social{
+    transition: all 0.1s linear;
+    &:hover{
+        transform: scale(1.5);
+    }
+}
+
+.nav-btn{
+    @extend .px-3, .py-2, .me-1;
+    &:hover{
+        background-color: $main-dark !important;
+        color: $main !important;
+    }
+}

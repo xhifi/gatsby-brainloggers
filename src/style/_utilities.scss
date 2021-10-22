@@ -1,0 +1,122 @@
+.active{
+    font-weight: bold !important;
+}
+.glass{
+    background: rgba( 194, 233, 251, 0.4 ) !important;
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glass-1{
+    background: rgba( 194, 233, 251, 0.6 ) !important;
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.glass-white{
+    background: rgba(255, 255, 255, 0.6) !important;
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.glass-white-1{
+    background: rgba(255, 255, 255, 0.8) !important;
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.rounded-10{
+    border-radius: 1rem !important;
+}
+
+.bg-main{
+    background-color: $main !important;
+}
+.bg-main-light{
+    background-color: $main-light !important;
+}
+.bg-main-dark{
+    background-color: $main-dark !important;
+    color: $main-light !important;
+}
+
+.text-main{
+    color: $main !important;
+}
+.text-main-dark{
+    color: $main-dark !important;
+}
+.text-main-light{
+    color: $main-light !important;
+}
+
+.perspective-transform{
+    transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(10px);
+    transition: transform 0.3s linear;
+}
+.perspective-transform-null{
+    &:hover{
+        transform: perspective(650px) rotateZ(0deg) rotateX(0deg) rotateY(0deg) scale(1) translateX(0) !important;
+    }
+}
+@include media-breakpoint-down(md) {
+    .perspective-transform{
+        transform: perspective(650px) rotateZ(0deg) rotateX(0deg) rotateY(0deg) scale(1.0) translateX(0px);
+    }
+}
+
+
+.box-shadow{
+    box-shadow: 0 8px 18px 0 rgba(0, 0, 0, 0.35);
+}
+
+.btn-outline-main-dark{
+    border-width: 0.1rem;
+    border-color: $main-dark !important;
+    transition: all 0.2s linear;
+    color: $main-dark !important;
+    &:hover{
+        background-color: $main-dark;
+        color: $main !important;
+        transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(1) translateX(10px);
+    }
+}
+.btn-outline-main-light{
+    border-width: 0.1rem;
+    border-color: $main-light !important;
+    transition: all 0.2s linear;
+    color: $main-light !important;
+    &:hover{
+        background-color: $main-light;
+        color: $main-dark !important;
+        transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(1) translateX(10px);
+    }
+}
+.btn-outline-main{
+    border-width: 0.1rem;
+    border-color: $main !important;
+    transition: all 0.2s linear;
+    color: $main !important;
+    &:hover{
+        background-color: $main;
+        color: $main-dark !important;
+        transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(1) translateX(10px);
+    }
+}
+.btn-main-dark{
+    background-color: $main-dark !important;
+    color: white !important;
+    transition: all 0.2s linear;
+    border: 0.2rem solid $main-dark;
+    &:hover{
+        background-color: $main-light !important;
+        border: 0.2rem $main-dark solid;
+        color: $main-dark !important;
+        transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(1) translateX(10px);
+    }
+}
+.font-sm{
+    font-size: 0.8rem;
+}

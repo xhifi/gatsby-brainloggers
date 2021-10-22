@@ -1,0 +1,24 @@
+- title: "Services"
+  description: "SERVICES DESCRIPTION"
+  path: "#"
+  content:
+    - item: "Web Design"
+      description: "Web Design includes all frontend and backend of a web application."
+      image: ""
+      path: "/services/web-design"
+    - item: "Graphic Design"
+      description: 
+      image: ""
+      path: "/services/graphic-design"
+    - item: "IT Consultancy"
+      description: 
+      image: ""
+      path: "/services/information-technology"
+    - item: "IT Operations"
+      description: 
+      image: ""
+      path: "/services/information-technology"
+    - item: "Digital Marketing"
+      description: 
+      image: ""
+      path: 

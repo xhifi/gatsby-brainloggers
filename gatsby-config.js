@@ -1,7 +1,49 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "Test Site",
+    siteUrl: "https://www.brainloggers.co.uk",
+    title: "Brainloggers",
+    author: "Shifa ur Rehman",
+    description: "This is the site description",
+    menuLinks:[
+      {
+        name:'Home',
+        link:'/'
+      },
+      {
+        name:'About Us',
+        link:'/about'
+      },
+      {
+        name:'Services',
+        link:'/services',
+        submenu: [
+          {
+            name: 'Web Design',
+            link: '/services/web-design'
+          },
+          {
+            name: 'Graphic Design',
+            link: '/services/graphic-design'
+          },
+          {
+            name: 'Information Technology',
+            link: '/services/information-technology'
+          },
+          {
+            name: 'Digital Marketing',
+            link: '/services/digital-marketing'
+          },
+        ]
+      },
+      {
+        name:'Contact Us',
+        link:'/contact'
+      },
+      {
+        name:'Blog',
+        link:'/blog/'
+      }
+    ],
   },
   plugins: [
     "gatsby-plugin-sass",
@@ -9,7 +51,7 @@ module.exports = {
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {
-        trackingId: "",
+        trackingId: "asdasdasdasdasdasdas",
       },
     },
     "gatsby-plugin-react-helmet",
