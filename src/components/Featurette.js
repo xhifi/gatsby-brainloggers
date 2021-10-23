@@ -18,7 +18,7 @@ const Featurette = () => {
                         placeholder="tracedSVG"
                         layout="fullWidth"
                         alt="Ugly little piece of shit"
-                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 border-blob perspective-transform perspective-transform-null shadow-lg"
+                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg"
                     />
                 </div>
             </div>
@@ -35,7 +35,7 @@ const Featurette = () => {
                         placeholder="tracedSVG"
                         layout="fullWidth"
                         alt="Shitty Window"
-                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 border-blob perspective-transform perspective-transform-null shadow-lg"
+                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg"
                     />
                 </div>
             </div>
@@ -52,7 +52,7 @@ const Featurette = () => {
                         placeholder="tracedSVG"
                         layout="fullWidth"
                         alt="Shitty shitshow"
-                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 border-blob perspective-transform perspective-transform-null shadow-lg"
+                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg featurette-image"
                     />
                 </div>
             </div>

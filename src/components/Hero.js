@@ -2,6 +2,23 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { BsFillTelephoneFill } from 'react-icons/bs'
 
+import FullRocket from '../images/base/rocket/full-rocket.svg'
+import IMAGE from '../images/Featurette/duck.jpg'
+
+const url = typeof window !== 'undefined' ? window.location.pathname : '';
+const slug = url.substring(1, url.length-1);
+
+const HeroDisplay = () => {
+    if (slug === "about"){
+        return <img src={IMAGE} width="50%"></img>
+    }else if (slug === "/"){
+        return <img src={FullRocket} width="500px" className="img-fluid" ></img>
+    }
+    else{
+        return <h1>{slug}</h1>
+    }
+}
+
 function Hero() {
     return (
         <div className="hero-container">
@@ -13,7 +30,22 @@ function Hero() {
                         <Link to="/contact" className="btn btn-lg btn-outline-main-dark mb-4 mb-md-0 mb-lg-0 rounded-10"><BsFillTelephoneFill className="me-2 mb-1" /> Call Us Now</Link>
                     </div>
                     <div className="col-md-10 mx-auto col-lg-5 pt-3 pt-lg-0">
-                        <form className="p-4 p-md-5 border rounded-10 bg-light glass perspective-transform perspective-transform-null hero-form text-main-dark">
+                        <HeroDisplay/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    );
+}
+
+export default Hero
+
+
+
+
+
+{/* <form className="p-4 p-md-5 border rounded-10 bg-light glass perspective-transform perspective-transform-null hero-form text-main-dark">
                             <div className="form-floating mb-3">
                                 <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" />
                                 <label for="floatingInput">Email address</label>
@@ -28,13 +60,4 @@ function Hero() {
                                 </label>
                             </div>
                             <button className="w-100 btn btn-lg btn-main-dark perspective-transform-null" type="submit">Sign up</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    );
-}
-
-export default Hero
+</form> */}
