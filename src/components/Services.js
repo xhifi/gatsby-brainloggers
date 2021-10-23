@@ -32,7 +32,7 @@ const Services = () => {
     return (
         <div className="service-container bg-main-dark shadow-lg border-bottom">
             <div className="container px-4 pb-5">
-                <div className="service-meta w-100 text-white p-lg-5 text-md-center">
+                <div className="service-meta w-100 text-white py-5 px-2 text-md-center">
                     <h1 className="p-0 m-0 mb-2">{data.name}</h1>
                     <p>{datameta}</p>
                 </div>

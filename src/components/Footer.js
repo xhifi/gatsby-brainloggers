@@ -5,20 +5,44 @@ import Logo from '../images/logo.svg'
 
 const footer = () => {
     return (
-        <div className="border-top bg-light">
-            <footer className=" container d-flex flex-wrap justify-content-between align-items-center py-3 my-0">
-                <p className="col-md-4 mb-0 text-muted">© 2021 Company, Inc</p>
-                
-                <Link to="" className="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"><img src={Logo} alt="Brainloggers" className="navbar-brand" width="25px" /> Brainloggers</Link>
-                
-                <ul className="nav col-md-4 justify-content-end">
-                <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">Home</Link></li>
-                <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">About</Link></li>
-                <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">Pricing</Link></li>
-                <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">FAQ</Link></li>
-                <li className="nav-item"><Link to="/" className="nav-link px-2 text-muted">Blog</Link></li>
-                </ul>
-            </footer>
+        <div className="border-top bg-main-dark text-main">
+            <div className="container-fluid py-4">
+                <footer class="row">
+                    <div class="col-12 col-md navbar-brand">
+                        <img class="mb-2" src={Logo} alt="Brainloggers" width="50" height="50"/> Brainloggers
+                        <small class="d-block mb-3 text-muted">© 2016–2021</small>
+                    </div>
+                    <div class="col-6 col-md col-sm-12">
+                        <h5>Features</h5>
+                        <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Cool stuff</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Random feature</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Team feature</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Stuff for developers</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Another one</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Last time</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md col-sm-12">
+                        <h5>Resources</h5>
+                        <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Resource</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Resource name</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Another resource</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Final resource</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md col-sm-12">
+                        <h5>About</h5>
+                        <ul class="list-unstyled text-small">
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Team</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Locations</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Privacy</a></li>
+                        <li class="mb-1"><a class="link-main text-decoration-none" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </div>
         </div>
         
     )
