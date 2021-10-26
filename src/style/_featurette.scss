@@ -24,18 +24,19 @@
   @extend .border;
   animation: scaleshift 10s linear infinite !important;
   animation-delay: 3s;
-  &:nth-child(odd){
+  &:nth-child(2){
     animation: scaleshift_opp 10s linear infinite !important;
   }
 }
 
 @keyframes scaleshift {
-  0%{transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(10px);}
-  50%{transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.9) translateX(10px);}
-  100%{transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(10px);}
+  0%{transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(0px);}
+  50%{transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.9) translateX(0px);}
+  100%{transform: perspective(650px) rotateZ(5deg) rotateX(-2.5deg) rotateY(-15deg) scale(0.8) translateX(0px);}
 }
 @keyframes scaleshift_opp {
-  0%{transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.8) translateX(-10px);}
-  50%{transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.9) translateX(-10px);}
-  100%{transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.8) translateX(-10px);}
+  0%{transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.8) translateX(0px);}
+  50%{transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.9) translateX(0px);}
+  100%{transform: perspective(650px) rotateZ(-5deg) rotateX(2.5deg) rotateY(15deg) scale(0.8) translateX(0px);}
 }
+

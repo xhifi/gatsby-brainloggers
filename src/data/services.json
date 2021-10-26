@@ -5,32 +5,32 @@
   "content": [
     {
       "item": "Web Design",
-      "description": "Web Design includes all frontend and backend of a web application.",
-      "image": "BsFillCollectionFill",
+      "description": "We design and deliver websites that deliver outstanding experiences. Our organically created static websites are best in class and search optimized.",
+      "image": "globe",
       "path": "/services/web-design"
     },
     {
       "item": "Graphic Design",
-      "description": "Web Design includes all frontend and backend of a web application.",
-      "image": "",
+      "description": "We craft and develop unique, powerful brands that engage and compel your target market via a range of print design, degital media and brand recognition.",
+      "image": "colorpalette",
       "path": "/services/graphic-design"
     },
     {
       "item": "IT Consultancy",
-      "description": "Web Design includes all frontend and backend of a web application.",
-      "image": "",
+      "description": "We provide competetive, professional and blazing fast guaranteed IT services. Our client confidentiality clause helps us keep our client's data secure.",
+      "image": "consultancy",
       "path": "/services/information-technology"
     },
     {
       "item": "IT Operations",
       "description": "Web Design includes all frontend and backend of a web application.",
-      "image": "",
-      "path": "/services/information-technology"
+      "image": "servers",
+      "path": "/services/it-operations"
     },
     {
       "item": "Digital Marketing",
-      "description": "Web Design includes all frontend and backend of a web application.",
-      "image": "",
+      "description": "Be it a single time thing or to run a proper Advertising Campaign accross all huge platforms such as Facebook, Google, Reddit etc. we know the techniques most effective and designs.",
+      "image": "megaphone",
       "path": "/services/digital-marketing"
     }
   ]

@@ -25,6 +25,7 @@ body{
     font-weight: bold;
 }
 .dropdown:hover .dropdown-menu {
+    transition: 0.3s all;
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
 }

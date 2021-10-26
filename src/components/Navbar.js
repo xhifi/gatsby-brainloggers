@@ -30,7 +30,7 @@ const Navbar = () => {
     
     return (
         <div className="">
-            <nav className="navbar navbar-expand-lg navbar-light" id="navbar">
+            <nav className="navbar navbar-expand-lg navbar-dark" id="navbar">
                 <div className="container-fluid">
                     <Link to="/" className="navbar-brand d-flex align-items-center me-3">
                         <img src={Logo} width="50px" className="me-2" alt={data.site.siteMetadata.title} />{data.site.siteMetadata.title}
@@ -45,7 +45,8 @@ const Navbar = () => {
                                 return (
                                 <span></span>
                                 )
-                            }else if( val.submenu && val.submenu.length > 0 ){console.log(val.submenu);
+                            }
+                            else if( val.submenu && val.submenu.length > 0 ){
                                 return (
                                     <li className="nav-item dropdown" key={index}>
                                         <Link to={val.link} className="btn rounded-10 nav-btn nav-link dropdown-toggle" activeClassName="active" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">{val.name}</Link>
