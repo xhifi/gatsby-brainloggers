@@ -16,7 +16,7 @@ const Featurette = () => {
                         width={500}
                         height={500}
                         placeholder="tracedSVG"
-                        layout="fullWidth"
+                        layout="constrained"
                         alt="Ugly little piece of shit"
                         className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg"
                     />
@@ -33,7 +33,7 @@ const Featurette = () => {
                         width={500}
                         height={500}
                         placeholder="tracedSVG"
-                        layout="fullWidth"
+                        layout="constrained"
                         alt="Shitty Window"
                         className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg"
                     />
@@ -50,7 +50,7 @@ const Featurette = () => {
                         width={500}
                         height={500}
                         placeholder="tracedSVG"
-                        layout="fullWidth"
+                        layout="constrained"
                         alt="Shitty shitshow"
                         className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg featurette-image"
                     />
