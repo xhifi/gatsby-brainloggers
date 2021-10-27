@@ -7,41 +7,55 @@ module.exports = {
     menuLinks:[
       {
         name:'Home',
-        link:'/'
+        link:'/',
+        icon: `home.png`,
       },
       {
         name:'About Us',
-        link:'/about'
+        link:'/about',
+        icon: './src/images/base/material-icons/info.png',
       },
       {
         name:'Services',
         link:'/services',
+        icon: './src/images/base/material-icons/rocket.png',
         submenu: [
           {
             name: 'Web Design',
-            link: '/services/web-design'
+            link: '/services/web-design',
+            icon: './src/images/base/material-icons/globe.png',
           },
           {
             name: 'Graphic Design',
-            link: '/services/graphic-design'
+            link: '/services/graphic-design',
+            icon: '../images/base/material-icons/colorpalette.png',
           },
           {
-            name: 'Information Technology',
-            link: '/services/information-technology'
+            name: 'IT Consultancy',
+            link: '/services/information-technology',
+            icon: '../src/images/base/material-icons/consulting.png',
+          },
+          {
+            name: 'IT Operations',
+            link: '/services/it-operations',
+            icon: './src/images/base/material-icons/consulting.png',
           },
           {
             name: 'Digital Marketing',
-            link: '/services/digital-marketing'
+            link: '/services/digital-marketing',
+            icon: './src/images/base/material-icons/megaphone.png',
           },
         ]
       },
       {
         name:'Contact Us',
-        link:'/contact'
+        link:'/contact',
+        icon: './src/images/base/material-icons/call.png',
       },
       {
         name:'Blog',
-        link:'/blog/'
+        link:'/blog/',
+        icon: './src/images/base/material-icons/megaphone.png',
       }
     ],
   },
@@ -52,6 +66,13 @@ module.exports = {
     "gatsby-plugin-mdx",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
+    `gatsby-transformer-json`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `./src/data/`,
+      },
+    },
     {
       resolve: "gatsby-plugin-google-analytics",
       options: {

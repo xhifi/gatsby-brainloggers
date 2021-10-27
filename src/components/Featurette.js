@@ -1,5 +1,32 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
+import data from '../data/featurette.json'
+
+const content = data.content;
+
+export const FeaturePost = () => {
+    return (
+        
+        content.map((val, index) => {
+            const image = JSON.stringify(val.image);
+            console.log(image);
+            
+            return <div key={index}>
+                
+                <p>{val.item}</p>
+                    <StaticImage
+                        src={image}
+                        width={500}
+                        height={500}
+                        placeholder="tracedSVG"
+                        layout="constrained"
+                        alt="Ugly little piece of shit"
+                        className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto mb-5 mb-lg-0 rounded-10 shadow-lg"
+                    />
+            </div>
+        })
+    )
+}
 
 
 const Featurette = () => {

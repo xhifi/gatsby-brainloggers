@@ -11,7 +11,7 @@ function Card () {
         content.map((val, index) => {
             if (val.path === "/services/web-design"){
                 return (
-                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" >
+                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" key={val.index}>
                         <div className="card h-100 px-3 py-3 rounded-10 shadow-lg glass-dark bg-main-dark service__card">
                             <div className="card-body service__body">
                                 <div className="feature-icon bg-main-dark border shadow service__icon">
@@ -26,7 +26,7 @@ function Card () {
                 )
             }else if (val.path === "/services/graphic-design"){
                 return (
-                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" >
+                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" key={val.index}>
                         <div className="card h-100 px-3 py-3 rounded-10 shadow-lg glass-dark bg-main-dark service__card">
                             <div className="card-body service__body">
                                 <div className="feature-icon bg-main-dark border shadow service__icon">
@@ -41,7 +41,7 @@ function Card () {
                 )
             }else if (val.path === "/services/information-technology"){
                 return (
-                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" >
+                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" key={val.index}>
                         <div className="card h-100 px-3 py-3 rounded-10 shadow-lg glass-dark bg-main-dark service__card">
                             <div className="card-body service__body">
                                 <div className="feature-icon bg-main-dark border shadow service__icon">
@@ -56,7 +56,7 @@ function Card () {
                 )
             }else if (val.path === "/services/it-operations"){
                 return (
-                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" >
+                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" key={val.index}>
                         <div className="card h-100 px-3 py-3 rounded-10 shadow-lg glass-dark bg-main-dark service__card">
                             <div className="card-body service__body">
                                 <div className="feature-icon bg-main-dark border shadow service__icon">
@@ -71,7 +71,7 @@ function Card () {
                 )
             }else if (val.path === "/services/digital-marketing"){
                 return (
-                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" >
+                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" key={val.index}>
                         <div className="card h-100 px-3 py-3 rounded-10 shadow-lg glass-dark bg-main-dark service__card">
                             <div className="card-body service__body">
                                 <div className="feature-icon bg-main-dark border shadow service__icon">
@@ -86,7 +86,7 @@ function Card () {
                 )
             }else{
                 return (
-                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" >
+                    <Link to={val.path}className="col text-decoration-none mb-3 mb-lg-3 service__col" key={val.index}>
                         <div className="card h-100 px-3 py-3 rounded-10 shadow-lg glass-dark bg-main-dark service__card">
                             <div className="card-body service__body">
                                 <div className="feature-icon bg-main-dark border shadow service__icon">

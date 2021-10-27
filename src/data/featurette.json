@@ -1,37 +1,37 @@
 {
-    "name": "Featurette",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus laoreet posuere. Proin libero risus, gravida vel sollicitudin a, aliquam non quam. Nulla rutrum condimentum lacinia. Sed luctus dictum dui eget viverra. Nulla facilisi. Morbi vitae congue quam. Aliquam consectetur, lectus vitae interdum venenatis, diam mauris suscipit ipsum, eu mollis ipsum neque et nisi. Nulla ut ultrices metus. Sed tincidunt eros in massa molestie, eget fermentum tellus finibus. Morbi id metus dictum, sodales orci eu, condimentum metus.",
-    "path": "#",
-    "content": [
-      {
-        "item": "Web Design",
-        "description": "Web Design includes all frontend and backend of a web application.",
-        "image": "../images/Featurette/duck.jpg",
-        "path": "/services/web-design"
-      },
-      {
-        "item": "Graphic Design",
-        "description": "Web Design includes all frontend and backend of a web application.",
-        "image": "",
-        "path": "/services/graphic-design"
-      },
-      {
-        "item": "IT Consultancy",
-        "description": "Web Design includes all frontend and backend of a web application.",
-        "image": "",
-        "path": "/services/information-technology"
-      },
-      {
-        "item": "IT Operations",
-        "description": "Web Design includes all frontend and backend of a web application.",
-        "image": "",
-        "path": "/services/information-technology"
-      },
-      {
-        "item": "Digital Marketing",
-        "description": "Web Design includes all frontend and backend of a web application.",
-        "image": "",
-        "path": "/services/digital-marketing"
-      }
-    ]
+  "name": "Featurette",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam faucibus laoreet posuere. Proin libero risus, gravida vel sollicitudin a, aliquam non quam. Nulla rutrum condimentum lacinia. Sed luctus dictum dui eget viverra. Nulla facilisi. Morbi vitae congue quam. Aliquam consectetur, lectus vitae interdum venenatis, diam mauris suscipit ipsum, eu mollis ipsum neque et nisi. Nulla ut ultrices metus. Sed tincidunt eros in massa molestie, eget fermentum tellus finibus. Morbi id metus dictum, sodales orci eu, condimentum metus.",
+  "path": "#",
+  "content": [
+    {
+      "item": "Heading 1 Index 0",
+      "description": "Web Design includes all frontend and backend of a web application.",
+      "image": "../images/Featurette/duck.jpg",
+      "path": "/services/web-design"
+    },
+    {
+      "item": "Heading 2 Index 1",
+      "description": "Web Design includes all frontend and backend of a web application.",
+      "image": "../images/Featurette/prism.jpg",
+      "path": "/services/graphic-design"
+    },
+    {
+      "item": "Heading 3 Index 2",
+      "description": "Web Design includes all frontend and backend of a web application.",
+      "image": "../images/Featurette/square.jpg",
+      "path": "/services/information-technology"
+    },
+    {
+      "item": "Heading 4 Index 3",
+      "description": "Web Design includes all frontend and backend of a web application.",
+      "image": "../images/Featurette/scene.jpg",
+      "path": "/services/information-technology"
+    },
+    {
+      "item": "Heading 5 Index 4",
+      "description": "Web Design includes all frontend and backend of a web application.",
+      "image": "../images/Featurette/duck.jpg",
+      "path": "/services/digital-marketing"
+    }
+  ]
 }
